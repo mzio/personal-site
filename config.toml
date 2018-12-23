@@ -1,0 +1,7 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Michael Zhang"
+theme = "tale-hugo"
+
+[Author]
+    name = "Michael Zhang"

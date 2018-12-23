@@ -1,0 +1,23 @@
+[posts]
+other = "Posts"
+
+[about]
+other = "About"
+
+[projects]
+other = "Projects"
+
+[home]
+other = "Home"
+
+[writtenBy]
+other = "Updated"
+
+[on]
+other = "on"
+
+[generator]
+other = "H' 2020. "
+
+[publishdate]
+other = "{{ .PublishDate.Format \"January 2, 2006\" }}"
