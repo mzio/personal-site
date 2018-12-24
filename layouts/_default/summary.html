@@ -1,15 +1,23 @@
-<a href="{{ .Permalink }}" class="catalogue-item">
+<div class="catalogue-item">
     <div>
-        <time datetime="{{ .PublishDate }}" class="catalogue-time">{{ i18n "publishdate" . }}</time>
-        <h1 class="catalogue-title">{{ .Title }}</h1>
+        {{ if .Params.project }} 
+            <time datetime="{{ .Params.project_date }}" class="catalogue-time">{{ .Params.project_date }}</time>
+        {{ else }}
+            <time datetime="{{ .PublishDate }}" class="catalogue-time">{{ i18n "publishdate" . }}</time>
+        {{ end }}
+        <a href="{{ .Permalink }}"><h1 class="catalogue-title">{{ .Title }}</h1></a>
         <div class="catalogue-line"></div>
-        <p>
-            {{ if .Params.project }}
-                {{ partial "single/project-preview.html" }}
-            {{ end }}
-        </p>
         <p>
             {{ if isset .Params "summary" }}{{ .Params.Summary }}{{ else }}{{ .Summary }}{{ end }}
         </p>
+        {{ if .Params.project }}
+            <div style="margin-bottom: 16px">
+            <a href="{{ .Params.project_link }}">
+                <img class="catalogue-preview_img" width="100%" height="80" src="{{ $.Site.BaseURL }}images/{{ .Params.preview_image }}" style="margin: 0px;">
+            </a>
+            </div>
+            <a href="{{ .Permalink }}" class="catalogue-btn">Read Post</a>
+            <a href="{{ .Params.project_link }}" class="catalogue-btn">View Project</a>  
+        {{ end }}
     </div>
-</a>
+</div>

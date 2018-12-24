@@ -492,6 +492,8 @@ footer {
   .catalogue-item:hover .catalogue-line,
   .catalogue-item:focus .catalogue-line {
     width: 5rem; }
+  .catalogue-item:hover .catalogue-preview_img {
+    opacity: 1; }
   .catalogue-item:last-child {
     border: 0; }
 
@@ -515,5 +517,27 @@ footer {
   border-top: 0.2rem solid #353535;
   display: block;
   width: 2rem; }
+
+.catalogue-preview_img {
+  object-fit: cover;
+  opacity: 0.5;
+  border: solid 1px #000; }
+
+.catalogue-btn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Roboto Mono';
+  font-size: 0.75em;
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+  border: solid 1px;
+  border-radius: 4px;
+  margin-right: 16px;
+  padding: 0.5em 1em;
+  opacity: 0.5; }
+  .catalogue-btn:hover {
+    opacity: 1; }
 
 /*# sourceMappingURL=style.css.map */

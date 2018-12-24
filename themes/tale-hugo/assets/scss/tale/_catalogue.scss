@@ -10,6 +10,10 @@
       width: 5rem;
     }
 
+    &:hover .catalogue-preview_img {
+      opacity: 1;
+    }
+
     &:last-child {
       border: 0;
     }
@@ -35,5 +39,30 @@
     border-top: .2rem solid $default-shade;
     display: block;
     width: 2rem;
+  }
+
+  &-preview_img {
+    object-fit: cover;
+    opacity: 0.5;  
+    border: solid 1px #000;  
+  }
+
+  &-btn {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto Mono';
+    font-size: 0.75em;
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+    border: solid 1px;
+    border-radius: 4px;
+    margin-right: 16px;
+    padding: 0.5em 1em;
+    opacity: 0.5;
+    &:hover {
+      opacity: 1;
+    }
   }
 }

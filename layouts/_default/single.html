@@ -7,21 +7,14 @@
 
 		{{ partial "single/header.html" . }}
 
+		<div style="margin-bottom: 2em">
+			<i>{{ .Params.summary }}</i>
+		</div>
+
 		{{ .Content }}
 
 		{{ partial "single/footer.html" . }}
 	</div>
-
-	<!-- <div class="pagination">
-		{{- if .PrevPage }}
-		<a href="{{ .PrevPage.URL }}" class="left arrow">&#8592;</a>
-		{{- end }}
-		{{- if .NextPage }}
-		<a href="{{ .NextPage.URL }}" class="right arrow">&#8594;</a>
-		{{- end }}
-
-		<a href="#" class="top">Top</a>
-	</div> -->
 </main>
 
 {{ end }}
