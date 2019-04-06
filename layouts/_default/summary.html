@@ -16,8 +16,13 @@
                 <img class="catalogue-preview_img" width="100%" height="80" src="{{ $.Site.BaseURL }}images/{{ .Params.preview_image }}" style="margin: 0px;">
             </a>
             </div>
-            <a href="{{ .Permalink }}" class="catalogue-btn">Read Post</a>
             <a href="{{ .Params.project_link }}" class="catalogue-btn">View Project</a>  
+        {{ end }}
+        {{ if .Params.post }}
+            <a href="{{ .Permalink }}" class="catalogue-btn">Read Post</a>
+        {{ end }}
+        {{ if .Params.writeup_link }}
+            <a href="{{ .Params.writeup_link }}" class="catalogue-btn">Read Writeup</a>  
         {{ end }}
     </div>
 </div>

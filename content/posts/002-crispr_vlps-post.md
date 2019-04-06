@@ -1,12 +1,13 @@
 ---
 title: "Genetic Engineering with CRISPR-Cas9 Virus-like Particles"
 date: 2016-05-27T01:37:59+09:00
-draft: true
+draft: false
 summary: "Creating virus-like particles using CRISPR-Cas9 for vector-based genome editing and modulation"  
 preview_image: "002-crispr_vlp-preview.png" 
 project: false
 project_date: May 27, 2016
 project_link: "https://drive.google.com/file/d/0B-oHjrV9G4VBTmU4THVvMktWb2c/view?usp=sharing" 
+tags: ['biology', 'projects']
 ---
 
 {{< figure src="/images/002-crispr_vlp-intro.png"  >}} 

@@ -9,7 +9,27 @@
 
 		<div style="margin-bottom: 2em">
 			<i>{{ .Params.summary }}</i>
+			{{ with .Params.tags }}
+		    <div class="tag-container">
+		    	Tags: [
+		        {{ range $i, $e := . }}
+		         <span class="tag">
+		            <a href="{{ "tags/" | absURL }}{{ . | urlize }}">
+		                {{if $i}}
+		            </a>
+		        </span>, 
+		        {{ end }}
+		        <span class="tag">
+		            <a href="{{ "tags/" | absURL }}{{ . | urlize }}">
+		                {{$e}}
+		            </a>
+		        </span> 
+		        {{ end }}]
+		    </div>
+		    {{ end }}
 		</div>
+		
+	    <!-- <hr/> -->
 
 		{{ .Content }}
 

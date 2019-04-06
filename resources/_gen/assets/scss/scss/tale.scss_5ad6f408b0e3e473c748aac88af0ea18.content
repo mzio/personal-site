@@ -95,7 +95,7 @@ pre code {
   padding: 3rem 0; }
   .post-info {
     color: #aaa;
-    font-family: Menlo, Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
+    font-family: "Roboto Mono", Menlo, Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
     letter-spacing: 0.5px;
     text-align: left; }
     .post-info span {
@@ -444,7 +444,7 @@ footer,
     right: 0; } }
 
 footer {
-  font-family: Menlo, Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
+  font-family: "Roboto Mono", Menlo, Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
   padding: 2rem 0;
   text-align: center; }
   footer span {
@@ -453,7 +453,7 @@ footer {
 
 .pagination {
   border-top: 0.5px solid #e5e5e5;
-  font-family: Menlo, Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
+  font-family: "Roboto Mono", Menlo, Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
   padding-top: 2rem;
   position: relative;
   text-align: center; }
@@ -497,18 +497,37 @@ footer {
   .catalogue-item:last-child {
     border: 0; }
 
+.catalogue-item-post {
+  border-bottom: 1px solid #e5e5e5;
+  color: #555;
+  display: block;
+  padding: 0.5rem 0; }
+  .catalogue-item-post:hover .catalogue-line,
+  .catalogue-item-post:focus .catalogue-line {
+    width: 5rem; }
+  .catalogue-item-post:hover .catalogue-preview_img {
+    opacity: 1; }
+  .catalogue-item-post:last-child {
+    border: 0; }
+
 .catalogue-time {
   color: #aaa;
-  font-family: Menlo, Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
+  font-family: "Roboto Mono", Menlo, Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
   letter-spacing: .5px; }
+
+.catalogue-time-post {
+  font-size: 0.75rem; }
 
 .catalogue-title {
   color: #353535;
   display: block;
   font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   margin: .5rem 0; }
+
+.catalogue-title-post {
+  font-size: 1rem; }
 
 .catalogue-line {
   -webkit-transition: all 0.3s ease-out;

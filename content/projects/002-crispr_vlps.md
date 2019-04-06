@@ -1,12 +1,15 @@
 ---
 title: "Genetic Engineering with CRISPR-Cas9 Virus-like Particles"
-date: 2018-12-25T01:37:59+09:00
-draft: true
+date: 2016-05-27T01:37:59+09:00
+publishdate: 2018-12-25T01:37:59+09:00
+draft: false
 summary: "Creating virus-like particles using CRISPR-Cas9 for vector-based genome editing and modulation"  
 preview_image: "002-crispr_vlp-preview.png" 
 project: true 
 project_date: May 27, 2016
 project_link: "https://drive.google.com/file/d/0B-oHjrV9G4VBTmU4THVvMktWb2c/view?usp=sharing" 
+post: true  
+post_link: "https://michaelzhang.xyz/posts/002-crispr_vlps-post/"
 ---
 
 {{< figure src="/images/002-crispr_vlp-intro.png"  >}} 

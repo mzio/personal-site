@@ -1,8 +1,9 @@
 ---
 title: "Mapping Kinases and Viral Drug Connectivity"
 date: 2017-01-25T03:38:07+09:00
-draft: true
+draft: false
 summary: Changing gene expression to beat out viral infections
+tags: ['biology']
 ---
 
 {{< figure src="/images/003-kinase-02.png"  >}} 

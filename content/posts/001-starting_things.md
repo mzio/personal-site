@@ -1,13 +1,14 @@
 ---
 title: "Starting Things"
 date: 2018-12-25T02:07:49+09:00
-draft: true
+draft: false
 summary: Starting things is hard. Finishing them is harder. Commitment issues lol.
+tags: ['personal']
 ---
 
-It's 2:08am on Christmas day in Hakone, Japan as I try to think of a good way to start this<sup>1</sup>. One of the things I've been telling myself for the last three years is that someday I'll maintain a website that's more than just a cryptic online resume. Perhaps it'd be a data science blog, something along the lines of [FiveThiryEight](https://fivethirtyeight.com/) or [IQuantNY](http://iquantny.tumblr.com/). Or maybe an online repository of side projects and ideas, the prospect of putting them up for someone else to discover supposedly motivating me to finish them. 
+It's 2:08am on Christmas day in Hakone, Japan as I try to think of a good way to start this<sup>1</sup>. One of the things I've been telling myself for the last three years is that someday I'll maintain a website that's more than just a cryptic online resume. Perhaps it'd be a data science blog, something along the lines of [FiveThirtyEight](https://fivethirtyeight.com/) or [IQuantNY](http://iquantny.tumblr.com/). Or maybe an online repository of side projects and ideas, the prospect of putting them up for someone else to discover supposedly motivating me to finish them. 
 
-Ironically the project to create that repo hat has started and stopped, started and stopped, and now I'm trying to start it again. And so with my 5th semester of college done, I finally have what some people around me refer to as "bandwidth" to actually do this. Think of it like an early New Year's resolution.
+Ironically the project to create that repo has started and stopped, started and stopped, and now I'm trying to start it again. And so with my 5th semester of college done, I finally have what some people around me refer to as "bandwidth" to actually do this. Think of it like an early New Year's resolution.
 
 ## ts;wtrm
 Made that up on the spot for "too short; want to read more". I think for as long as I can remember, I've been excited about the future. Not so much in the *"omg I can't wait for all this new technology to make our lives 10x better sense"*, but more in the idea that future me will have completed things that seem cool or exciting to present me. So I guess this is only conditional excitement. And maybe selfish. There's just something appealing about recognizing some present-day issue or a project that's waiting to be done, and imagining the course of action that will one day lead to its eventual success.

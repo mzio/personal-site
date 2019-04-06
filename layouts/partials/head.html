@@ -15,6 +15,9 @@
         {{- end }}
     </title>
 
+    <!-- MathType -->
+    {{ partial "mathjax_support.html" . }}
+
     <!-- CSS -->
     {{- $inServerMode   := .Site.IsServer }}
     {{- $cssTarget      := "css/style.css" }}

@@ -1,7 +1,11 @@
-baseURL = "http://example.org/"
+baseURL = "https://michaelzhang.xyz/"
 languageCode = "en-us"
 title = "Michael Zhang"
 theme = "tale-hugo"
 
 [Author]
     name = "Michael Zhang"
+
+[taxonomies]
+    tags = "tags"  
+    category = "categories"  
