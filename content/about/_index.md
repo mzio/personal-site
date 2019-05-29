@@ -6,7 +6,7 @@ draft: false
 
 ## me
 
-I'm a third year student at Harvard, concentrating in Statistics and Computer Science.
+I'm a rising senior ([U4](https://michaelzhang.xyz/posts/015-college_id_jargon/)) at Harvard, concentrating in Statistics and Computer Science.
 
 Outside of class, I find myself involved in strictly [four-letter](https://www.harvardconsulting.org/) [acronym](https://www.google.com/search?q=aadt&oq=aadt&aqs=chrome..69i57j69i60.979j0j4&sourceid=chrome&ie=UTF-8) clubs, trying to do research, and constantly interested in building things / doing side-projects.
 
@@ -32,19 +32,21 @@ Mix of an academic and online presence. Place to motivate thoughts on life, scho
 
 #### # Education
 
-2016 - 2020: Harvard AB (pending SM)  
+2016 - 2020: Harvard AB in Statistics and Computer Science  
 2012 - 2016: Conestoga High School
 
 #### # Current Activities
 
-Teaching - Stat 110  
-Trying to Dance - AADT  
-Researching - Market Design + ML  
-Experimenting - This Site
+Researching - computer vision, RL, meta-learning  
+Organizing - [Harvard Summercamp 2019](http://summercamp.io/), [Hack Lodge S'19](https://hacklodge.org/) (both in the Bay Area!)  
+Experimenting with - this site  
+Getting ready to teach - [Stat 110](https://projects.iq.harvard.edu/stat110/home)  
+Trying to Dance - [post-AADT Eastbound 2019](https://www.youtube.com/playlist?list=PLadDdfXlfSo1hn9SkRG-9naBDpHffhfp5)
 
 #### # Past Activities
 
 2018: Case Team Leader - HCCG  
+2018: Partner - Black Diamond Capital  
 2018: Quant Research - DRW  
 2017: Teaching Fellow - Stat 110  
 2017: ML + Genomics - Broad Institute  

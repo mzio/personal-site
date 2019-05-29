@@ -9,3 +9,6 @@ theme = "tale-hugo"
 [taxonomies]
     tags = "tags"  
     category = "categories"  
+
+[Params]
+css = ["main.css"]

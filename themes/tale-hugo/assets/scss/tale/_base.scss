@@ -12,7 +12,7 @@ body {
 
 html {
   font-family: $serif-primary;
-  font-size: 14px;
+  font-size: 12px;
   overflow-y: scroll;
 
   @media (min-width: 600px) {
@@ -40,11 +40,16 @@ a {
   text-decoration: none;
 }
 
-blockquote {
-  border-left: .25rem solid $grey-2;
+a:hover {
   color: $grey-1;
-  margin: .8rem 0;
-  padding: .5rem 1rem;
+  text-decoration: none;
+}
+
+blockquote {
+  border-left: 0.25rem solid $grey-2;
+  color: $grey-1;
+  margin: 0.8rem 0;
+  padding: 0.5rem 1rem;
 
   p:last-child {
     margin-bottom: 0;
@@ -63,4 +68,24 @@ img {
 
 td {
   vertical-align: top;
+}
+
+#headshot {
+  float: right;
+  padding: 1rem;
+  position: relative;
+  top: 0rem;
+  max-width: 30%;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  #headshot {
+    float: none;
+    padding: 1rem;
+    position: relative;
+    top: 0rem;
+    max-width: 50%;
+    height: auto;
+  }
 }
